@@ -1,5 +1,5 @@
 /** 
- * @supported BC368C08
+ * @supported BC368C084B87
  */
 //Customize whitelist by onewayticket255
 let whitelist=['追番','推荐','直播','热门','影视']

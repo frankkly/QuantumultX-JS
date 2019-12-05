@@ -11,6 +11,10 @@ http-response https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-b
 MITM = api.gotokeep.com
 */
 
+/** 
+ * @supported BC368C084B87
+ */
+
 let url = $request.url;
 let body = $response.body;
 let obj = JSON.parse(body);

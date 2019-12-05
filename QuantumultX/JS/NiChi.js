@@ -11,6 +11,8 @@ QX 1.0.0:
 
 Surge & QX Mitm = mp.bybutter.com
 */
-
+/** 
+ * @supported BC368C084B87
+ */
 body = $response.body.replace(/preview/g, "free").replace(/view/g, "unlimited").replace(/true/g, "false");
 $done({body});

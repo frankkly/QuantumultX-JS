@@ -9,7 +9,7 @@ http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires
 hostname = *.amemv.com, *.snssdk.com
 */
 /** 
- * @supported BC368C08
+ * @supported BC368C084B87
  */
 let arr = {
   "allow_download": true,
