@@ -10,7 +10,9 @@ http-response ^https?:\/\/(ios|apple)\.fuliapps\.com\/ requires-body=1,max-size=
 
 Surge & QX MITM = *.fuliapps.com
 */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 var body = $response.body;
 var url = $request.url;
 const path1 = "/ucp/index";

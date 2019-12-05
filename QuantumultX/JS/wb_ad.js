@@ -7,7 +7,9 @@ Weibo remove ads
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
  */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 const path1 = "/groups/timeline";
 const path2 = "/statuses/unread";
 const path3 = "/statuses/extend";

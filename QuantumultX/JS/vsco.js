@@ -9,7 +9,9 @@ http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\
 
 Surge & QX MITM = vsco.co
 */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 var body = $response.body;
 var url = $request.url;
 

@@ -11,7 +11,9 @@ mitm = ap*.bilibili.com
 
 by onewayticket255
 */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 let body = $response.body
 body=JSON.parse(body)
 body['data']['relates'].forEach((element, index)=> {

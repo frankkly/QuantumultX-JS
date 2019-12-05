@@ -7,7 +7,9 @@ Weibo remove start up ads
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
  */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 const path1 = "/interface/sdk/sdkad.php";
 const path2 = "/wbapplua/wbpullad.lua";
 

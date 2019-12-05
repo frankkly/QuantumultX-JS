@@ -9,7 +9,9 @@ http-response ^https://app.bilibili.com/x/v2/account/mine\?access_key requires-b
 
 Surge & QX MITM = app.bilibili.com
 */
-
+/**
+ * @supported BC368C084B87 ADADD31E6563
+ */
 let body = $response.body
 body=JSON.parse(body)
 body['data']['sections'].splice(2,1)
