@@ -15,16 +15,16 @@ let config = {
         uv: true, //紫外线显示,false则不显示
         apparent: true, //体感温度显示,false则不显示
         lifestyle: { //此处用于显示各项生活指数，可自行调整顺序，顺序越在前面则显示也会靠前，如果您不想查看某一指数，置为false即可，想看置为true即可
-            comf: false, //舒适度指数,
+            comf: true, //舒适度指数,
             cw: false, //洗车指数,
             drsg: true, //穿衣指数,
             flu: false, //感冒指数,
-            sport: false, //运动指数,
+            sport: true, //运动指数,
             trav: false, //旅游指数,
             uv: false, //紫外线指数,
-            air: false, //空气污染扩散条件指数,
+            air: true, //空气污染扩散条件指数,
             ac: false, //空调开启指数,
-            ag: false, //过敏指数,
+            ag: true, //过敏指数,
             gl: false, //太阳镜指数,
             mu: false, //化妆指数,
             airc: false, //晾晒指数,
